@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./react-plus-rails.svg" alt="logo" width="auto"  height="150" style="margin: 20px 0;" />
+  <img src="./react-plus-rails.svg" alt="logo" width="400"  height="auto" style="margin: 20px 0;" />
   <br>
 </div>
 
