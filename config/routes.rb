@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   # API route
   namespace :api do
-    get 'random_greeting', to: 'greetings#random_greeting'
+    resources :greetings, only: [:index], :path => "random_greeting"
   end
 end

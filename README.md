@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./react-plus-rails.svg" alt="logo" width="400"  height="auto" style="margin: 20px 0;" />
+  <img src="./react-plus-rails.svg" alt="logo" width="300"  height="auto" style="margin: 40px 0;" />
   <br>
 </div>
 
@@ -39,14 +39,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Random greeting message generation
-- Single Rails & React web app
+Random greeting message generation
+Single Rails & React web app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Currently unavailable
+Currently unavailable
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,11 +55,11 @@
 ### Prerequisites
 
 In order to run this project you need the following installed on your computer:
-- Ruby v3+,
-- Rails v7+
-- PostgreSQL
-- An IDE e.g. [Visual Studio Code](https://code.visualstudio.com/)
-- A terminal e.g. [Git BASH](https://gitforwindows.org/)
+Ruby v3+,
+Rails v7+
+PostgreSQL
+An IDE e.g. [Visual Studio Code](https://code.visualstudio.com/)
+A terminal e.g. [Git BASH](https://gitforwindows.org/)
 
 ### Setup
 
@@ -69,7 +69,7 @@ Clone this repo:
 git clone https://github.com/DJ-MrJay/hello-rails-react
 ```
 
-- Navigate to the directory:
+Navigate to the directory:
 
 ```
 cd hello-rails-react
@@ -84,9 +84,9 @@ bundle install
 ```
 ### Database Setup (Mandatory!)
 
-- Navigate to `config/database.yml` and edit the username and password with your PostgreSQL credentials (line 21 and 22)
+Navigate to `config/database.yml` and edit the username and password with your PostgreSQL credentials (line 21 and 22)
 
-- Run the following command:
+Run the following command:
 ```
 rails db:create db:migrate db:seed
 ```
@@ -109,14 +109,14 @@ Or
 
 👤 **Jonah Wambua**
 
-- GitHub [link](https://github.com/DJ-MrJay)
-- Twitter [link](https://twitter.com/jonah_wambua)
-- LinkedIn [link](https://www.linkedin.com/in/jonah-wambua/)
+GitHub [link](https://github.com/DJ-MrJay)
+Twitter [link](https://twitter.com/jonah_wambua)
+LinkedIn [link](https://www.linkedin.com/in/jonah-wambua/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Addition of more functions and features
-- Improvement of the visual front-end
+Addition of more functions and features
+Improvement of the visual front-end
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,9 +134,9 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- [Microverse Coding School](https://www.microverse.org) for a A+ curriculum
-- Code reviewers, coding partners, morning and standup teams for the great insights
-- Hat tip to anyone else whose code was used
+[Microverse Coding School](https://www.microverse.org) for a A+ curriculum
+Code reviewers, coding partners, morning and standup teams for the great insights
+Hat tip to anyone else whose code was used
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
