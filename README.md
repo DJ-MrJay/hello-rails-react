@@ -1,3 +1,10 @@
+<div align="center">
+  <img src="./react-plus-rails.svg" alt="logo" width="auto"  height="150" style="margin: 20px 0;" />
+  <br>
+</div>
+
+<a name="readme-top"></a>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -39,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo] :smiley: Unavailable
+- Currently unavailable
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,13 +63,13 @@ In order to run this project you need the following installed on your computer:
 
 ### Setup
 
-Clone this repository or download the Zip folder:
+Clone this repo:
 
 ```
 git clone https://github.com/DJ-MrJay/hello-rails-react
 ```
 
-- Navigate to the location of the folder you just cloned:
+- Navigate to the directory:
 
 ```
 cd hello-rails-react
@@ -70,7 +77,7 @@ cd hello-rails-react
 
 ### Install
 
-Install all dependencies
+Install all dependencies:
 
 ```
 bundle install
@@ -115,9 +122,7 @@ Or
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome.
-
-Feel free to check the [issues page](../../issues/).
+Contributions, issues, and feature requests are welcome. If you find bugs, have suggestions for improvements, or want to add new features, please feel free to add an issue on the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

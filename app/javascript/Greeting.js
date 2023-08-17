@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchGreeting } from './redux/greetingsSlice';
+import { fetchGreeting } from './redux/actions';
 
-function Greeting() {
+const Greeting = () => {
   const dispatch = useDispatch();
-  const greeting = useSelector((state) => state.greeting);
+  const randomGreeting = useSelector((state) => state.greeting.randomGreeting);
 
   useEffect(() => {
     dispatch(fetchGreeting());
@@ -12,11 +12,9 @@ function Greeting() {
 
   return (
     <div>
-      <blockquote>
-        <p>{greeting ? greeting : "NO GREETING"}</p>
-      </blockquote>
+      <h1>{randomGreeting}</h1>
     </div>
   );
-}
+};
 
 export default Greeting;

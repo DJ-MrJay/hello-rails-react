@@ -5,16 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-
-# Seed the messages table with sample greetings
-greetings = [
-  "Greetings from the app!",
-  "Hey there, how's it going?",
-  "Hi there, make yourself at home!",
-  "Welcome to our awesome app.",
-  "Welcome aboard our digital journey."
-]
-
-greetings.each do |greeting|
-  Message.create(description: greeting)
-end
+# db/seeds.rb
+Greeting.create(text: "Greetings from the app!")
+Greeting.create(text: "Hey there, how's it going?")
+Greeting.create(text: "Hi there, make yourself at home!")
+Greeting.create(text: "Welcome to our awesome app.")
+Greeting.create(text: "Welcome aboard our digital journey.")
